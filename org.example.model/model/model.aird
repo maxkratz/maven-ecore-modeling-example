@@ -3,6 +3,7 @@
   <viewpoint:DAnalysis uid="_Wfkr4KfCEe68m-Wo3nTZbg" selectedViews="_WqC2gKfCEe68m-Wo3nTZbg" version="15.2.0.202303281325">
     <semanticResources>model.ecore</semanticResources>
     <semanticResources>model.genmodel</semanticResources>
+    <semanticResources>../src/main/java/GenerateModel.mwe2</semanticResources>
     <ownedViews xmi:type="viewpoint:DView" uid="_WqC2gKfCEe68m-Wo3nTZbg">
       <viewpoint xmi:type="description:Viewpoint" href="platform:/plugin/org.eclipse.emf.ecoretools.design/description/ecore.odesign#//@ownedViewpoints[name='Design']"/>
       <ownedRepresentationDescriptors xmi:type="viewpoint:DRepresentationDescriptor" uid="_WsFd4KfCEe68m-Wo3nTZbg" name="model" repPath="#_Wrnj0KfCEe68m-Wo3nTZbg" changeId="1704016368484">
