@@ -13,12 +13,12 @@ It can be used to generate and compile the code from an Eclipse modeling project
 | [org.example.model](org.example.model)                                   | Eclipse (plug-in) project | Contains the Ecore and the Genmodel files to generate code from.    |
 | [ci.yml](.github/workflows/ci.yml)                                       | File                      | Example GitHub Actions configuration to build and push the project. |
 | [pom.xml](org.example.model/pom.xml)                                     | File                      | Maven configuration file that contains the porject's configuration. |
-| [GenerateModel.mwe2](org.example.model/src/main/java/Generatemodel.mwe2) | File                      | MWE2 file to generate the source code from the Ecore/Genmodel file. |
+| [GenerateModel.mwe2](org.example.model/src/main/java/GenerateModel.mwe2) | File                      | MWE2 file to generate the source code from the Ecore/Genmodel file. |
 
 
 ## How to build
 
-- Generate code + build the project:
+- Generate code + build the project:  
   `$ mvn clean package`
 - Build + install the project to the local `.m2/` folder:  
   `$ mvn clean install`
