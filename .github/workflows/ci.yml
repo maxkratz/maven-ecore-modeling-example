@@ -22,7 +22,7 @@ jobs:
           cd org.example.model
           mvn --batch-mode --update-snapshots package
       - name: Upload build artifact
-        uses: actions/upload-artifact@v5
+        uses: actions/upload-artifact@v6
         with:
           name: org.example.model
           path: org.example.model/target/org.example.model-*.jar
